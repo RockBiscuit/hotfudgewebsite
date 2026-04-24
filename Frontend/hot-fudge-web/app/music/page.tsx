@@ -1,11 +1,10 @@
 "use client";
-import "../app/headerTabs.css";
 import React, { useState } from 'react';
-import Header from './header';
+import Header from '../header';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
-function homePage() {
+function music() {
   return (
     <div>
       <Header />
@@ -17,4 +16,4 @@ function homePage() {
   );
 
 };
-export default homePage;
+export default music;
