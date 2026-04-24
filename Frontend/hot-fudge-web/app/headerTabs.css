@@ -1,0 +1,15 @@
+.center {
+  place-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+
+  gap: 15px;
+  padding-right: 10px;
+}
+.tab-button {
+  padding: 0 15px;
+  cursor: pointer;
+}
