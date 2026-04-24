@@ -1,0 +1,10 @@
+.center {
+  display: grid;
+  place-items: center; 
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    style: bold;
+}
